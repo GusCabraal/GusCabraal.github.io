@@ -1,0 +1,60 @@
+body {
+    margin: 30px auto 80px auto;
+    width: 90%;
+    color: rgb(70, 65, 65);
+    background-color: rgb(241, 233, 188);
+    font-size:20px;
+    text-align: center;
+}
+.inicio{
+    height: 600px;
+    border: 1px solid black;
+    vertical-align: middle;
+}
+.foto-e-nome {
+    float: left;
+    width: 40%
+}
+.descricao {
+
+    width: 40%
+    border: 1px solid black;
+}
+
+
+#foto-ferfil{
+    border-radius: 100%;
+    width = 200px;
+}
+.botao-indice{
+ border: 1px solid black;
+ padding: 3px 10px;
+ margin: 10px 20px;   
+ background-color: green; 
+ line-height: 50px;
+ border-radius: 10px;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    text-align: left;
+}
+
+li {
+    text-align: left;
+}
+
+.linkedin {
+    float: left;
+    margin-left: 50px;
+}
+
+.github {
+    float: right;
+    margin-right: 50px;
+}
+
