@@ -1,60 +1,121 @@
-body {
-    margin: 30px auto 80px auto;
-    width: 90%;
-    color: rgb(70, 65, 65);
-    background-color: rgb(241, 233, 188);
-    font-size:20px;
+/* header */
+
+body{
+    margin: 0;
+    background-image: url("./img/fundo-batman.jpg");
+    background-size: cover;
+
+}
+header {
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(65, 5, 5);
+    width: 100%;
+    margin: 0 0 70px 0;
+    border-radius: 0 0 20px 20px;
+}
+
+#logo{
+    height: 50px;
+    position: absolute;
+    left: 30px;
+    top: 10px;
+
+}
+.navegacao-header{
+    position: absolute;
+    top: 23px;
+    color: white;
+    text-decoration: none;
+}
+.navegacao-header:hover{
+    color:black;
+}
+#posicao-botao1 {
+    right: 300px;
+}
+
+#posicao-botao2 {
+    right: 170px;
+}
+
+#posicao-botao3 {
+    right: 50px;
+}
+
+/* corpo */
+
+#corpo { 
+    font-family: monospace;
+    margin: 70px auto 0 auto;
+    padding: 10px 0;
+    width: 80%;
+    color: rgb(3, 107, 66);
+    background-color: rgb(0, 0, 0);
+}
+h2 {
+    text-align: center;
+    font-size: 24px;
+}
+h3 {
+    padding: 20px;
+    font-size: 30px;
     text-align: center;
 }
-.inicio{
-    height: 600px;
-    border: 1px solid black;
+h4{
+    color: rgb(3, 107, 66);
+    margin: 0;
+    padding: 10px;
+}
+
+.identificacao{
+    display: inline-block;
+    width: 100%;
+    min-height: 300px;
     vertical-align: middle;
+    height: 350px;
 }
-.foto-e-nome {
-    float: left;
-    width: 40%
-}
-.descricao {
-
-    width: 40%
-    border: 1px solid black;
-}
-
-
 #foto-ferfil{
     border-radius: 100%;
-    width = 200px;
-}
-.botao-indice{
- border: 1px solid black;
- padding: 3px 10px;
- margin: 10px 20px;   
- background-color: green; 
- line-height: 50px;
- border-radius: 10px;
-
-}
-a {
-    text-decoration: none;
-    color: black;
-}
-
-p {
-    text-align: left;
-}
-
-li {
-    text-align: left;
-}
-
-.linkedin {
+    width: 25%;
     float: left;
-    margin-left: 50px;
+    margin-left: 80px;
 }
-
-.github {
+.descricao{
+    width: 50%;
+    margin-right: 60px;
     float: right;
-    margin-right: 50px;
+}
+.descricao p{
+    text-align: left;
+    line-height: 30px;
+}
+#habilidades {
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+#habilidades p {
+    margin: 0 40px;
+    line-height: 25px;
 }
 
+
+/* rodapé */
+footer {
+    width: 80%;
+    height: 110px;
+    background-color: red;
+    margin: 0 auto;
+    text-align: center;
+    background-color: black;
+    border-top: 2px solid rgb(65, 5, 5);
+}
+
+footer img {
+    width: 50px;
+    margin: 0 50px 10px;
+    padding: 0 20px; 
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,44 +8,49 @@
     <link rel="stylesheet" href="style.css">
     <title>Portfólio web</title>
 </head>
+
 <body>
-    <h1 id = "indice">Indice</h1>
-    <ul type = "none">
-        <li><a href="#quem-sou-eu"class ="botao-indice">Resumo</a></li>
-        <li><a href="#habilidades" class ="botao-indice" >Habilidades</a></li>
-        <li><a href="#redes" class ="botao-indice">Outras redes</a></li>
-    </ul>
-    <div class="inicio">
-        <div class = "foto-e-nome">
-            <h3>Gustavo Morais Cabral</h3>
-            <img id ="foto-ferfil" src="./img/foto-portifolio.jpeg" alt="foto perfil" >
+    <header>
+        <img src="./img/logo-batman.png" id="logo" alt="icone principal">
+        <ul type="none">
+            <li><a href="#quem-sou-eu" class="navegacao-header" id="posicao-botao1">Resumo</a></li>
+            <li><a href="#habilidades" class="navegacao-header" id="posicao-botao2">Habilidades</a></li>
+            <li><a href="#redes" class="navegacao-header" id="posicao-botao3">Contato</a></li>
+        </ul>
+    </header>
+
+    <div id="corpo">
+        <h3>Gustavo Morais Cabral</h3>
+        <div class="identificacao">
+            <img id="foto-ferfil" src="./img/foto-portifolio.jpeg" alt="foto perfil">
+            <div class="descricao">
+                <h2>Resumo</h2>
+                <p id="quem-sou-eu"><strong>Sou um curioso por natureza, gosto de novos desafios. </strong> <br>
+                    Apaixonado por esportes e viajar. <br>
+                    Engenheiro civil <strong> atualmente fazendo transição de carreira estudando na
+                        <em>Trybe.</em><br>
+                        Nascido em Soledade-RS.<br>
+                    Nerd e muito fã do Batman.</strong>
+                </p>
+            </div>
         </div>
-        <div class = "descricao">
-            <h2>Resumo</h2>
-            <p id = "quem-sou-eu"><strong>Sou um curioso por natureza, gosto de novos desafios. </strong> <br>
-                Nascido em Soledade-RS. <br>
-                Apaixonado por esportes e viajar. <br>
-                Engenheiro civil <strong> atualmente fazendo transição de carreira estudando na <em>Trybe.</em></strong>
-            </p>
+        <div id="habilidades">
+            <h2 >Habilidades</h2>
+            <p><strong>Organização </strong></p>
+            <p>Proatividade</p>
+            <p><strong>Pensamento analítico </strong></p>
+            <p>Criatividade</p>
+            <p>Resiliência</p>
         </div>
     </div>
-
-    <h2 id = "habilidades">Habilidades</h2>
-    <ul>
-        <li><strong>Organização </strong></li>
-        <li>Pensamento analítico</li>
-        <li>Proatividade</li>
-        <li>Criatividade</li>
-        <li>Resiliência</li>
-    </ul>
-
-    <h2 id = "redes">Outras redes</h2>
-    <div class="linkedin">
-        <img src="./img/logo-linkedin.png" alt="" width="20px">
-        <a href="https://www.linkedin.com/in/gustavomcabral/" target="_blank">Linkedin</a>
-    </div>
-
-    <div class="github">
-        <img src="./img/github_logo_icon_147285.png" alt="" width="20px">
-        <a href="https://github.com/GusCabraal" target="_blank">Github</a>
-    </div>
+    <footer id="redes">
+        <h4>Contato</h4>
+        <a href="https://www.linkedin.com/in/gustavomcabral/" target="_blank"><img src="./img/logo-linkedin.png"
+                alt="linkedin"></a>
+        <a href="https://github.com/GusCabraal" target="_blank"><img src="./img/github_logo_icon_147285.png"
+                alt="github"></a>
+        <a href="https://www.instagram.com/gucabraal/" target="_blank"><img src="./img/logo-insta.png"
+                alt="instagram"></a>
+        </div>
+    </footer>
+</body>
