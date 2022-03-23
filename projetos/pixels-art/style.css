@@ -15,7 +15,7 @@ body{
     margin: 50px auto 100px;
     padding: 20px;
     border: 1px solid black;
-    width: 500px;
+    width: 50%;
     background-color: rgba(70, 62, 62, 0.404);
     border-radius: 20px;
 }
@@ -40,6 +40,7 @@ body{
   }
 #buttons-container {
     padding: 10px 10px;
+    margin: 10px
 }
 .color {
     border: 1px solid black;
@@ -71,10 +72,15 @@ button {
     margin: 5px;
     border: 2px solid black;
     border-radius: 10px;
+    color: black;
+    font-weight: bold;
 }
 
 input {
     width: 50px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
 }
 /* rodapé */
 #redes{

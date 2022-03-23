@@ -52,9 +52,9 @@ function createPixelBoard(n) {
     }
 }
 // Chamando todas as funções de criar elementos
-createCleanButton();
 createInput();
 createButtonGenerateBoard();
+createCleanButton();
 createPixelBoard(5);
 
 function removeAllPixels() {
