@@ -76,6 +76,7 @@ const buttonGenerateBoard = document.getElementById('generate-board');
 function createNewPixelBoard () {
     removeAllPixels();
     let number;
+    const corpo = document.getElementById('corpo');
     const boardSize = document.getElementById('board-size');
     if (boardSize.value === '') {
         alert('Board inválido!');
@@ -88,6 +89,7 @@ function createNewPixelBoard () {
     }
     number = boardSize.value;
     pixelBoard.style.width = number * 40 + 'px';
+    corpo.style.width = number * 40 + 100 + 'px';
     createPixelBoard(number);
     cleanPixelBoard();
 }
