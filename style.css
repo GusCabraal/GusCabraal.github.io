@@ -22,38 +22,34 @@ header {
     width: 100%;
     margin: 0 0 70px 0;
     border-radius: 0 0 20px 20px;
+    display: flex;
+    justify-content: center;
+
+}
+#container-header {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #logo{
     height: 50px;
-    position: absolute;
-    left: 30px;
-    top: 10px;
 
 }
+#container-links {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .navegacao-header{
-    position: absolute;
-    top: 23px;
     color: white;
     text-decoration: none;
+    font-size: 20px;
 }
 .navegacao-header:hover{
     color:black;
-}
-#posicao-botao1 {
-    right: 400px;
-}
-
-#posicao-botao2 {
-    right: 270px;
-}
-
-#posicao-botao3 {
-    right: 170px;
-}
-
-#posicao-botao4 {
-    right: 50px;
 }
 
 /* corpo */
