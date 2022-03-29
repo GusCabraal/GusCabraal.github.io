@@ -7,7 +7,6 @@
 }
 
 body{
-    margin: 0;
     background-image: url("./img/fundo-batman.jpg");
     background-size: cover;
 
@@ -119,15 +118,15 @@ header {
 /* rodapé */
 footer {
     width: 100%;
-    height: 170px;
-    text-align: center;
+    height: 150px;
     background-color: black;
     border-top: 2px solid rgb(65, 5, 5);
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 footer img {
-    width: 50px;
+    width: 40px;
     margin: 0 50px 20px; 
-
 }
