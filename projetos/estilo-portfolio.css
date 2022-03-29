@@ -1,0 +1,35 @@
+/* estilos do portfolio futuro */
+
+h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+#corpo {
+    height: 1000px;
+}
+#project-list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-item {
+    width: 450px;
+    border: 2px solid rgb(255, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo-projeto {
+    margin: 10px;
+}
+
+.project-item img {
+    width: 400px;
+}
+.descricao {
+    width: 400px;
+    margin: 10px 0;
+    text-align: left;
+}
