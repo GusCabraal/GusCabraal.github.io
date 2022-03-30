@@ -1,132 +1,131 @@
 /* header */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: rgb(3, 107, 66);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(3, 107, 66);
 }
 
-body{
-    background-image: url("./img/fundo-batman.jpg");
-    background-size: cover;
-
+body {
+  background-image: url("./img/fundo-batman.jpg");
+  background-size: cover;
 }
 
 header {
-    height: 70px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: rgb(65, 5, 5);
-    width: 100%;
-    margin: 0 0 70px 0;
-    border-radius: 0 0 20px 20px;
-    display: flex;
-    justify-content: center;
-
+  height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(65, 5, 5);
+  width: 100%;
+  margin: 0 0 70px 0;
+  border-radius: 0 0 20px 20px;
+  display: flex;
+  justify-content: center;
 }
 #container-header {
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-#logo{
-    height: 70px;
-
+#logo {
+  height: 70px;
 }
 #container-links {
-    width: 500px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.navegacao-header{
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
+.navegacao-header {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
 }
-.navegacao-header:hover{
-    color:black;
+.navegacao-header:hover {
+  color: black;
 }
 
 /* corpo */
 
-#corpo { 
-    font-family: monospace;
-    margin: 70px auto 0 auto;
-    padding: 10px 0;
-    width: 80%;
-    background-color: rgb(0, 0, 0);
-    text-align: center;
+#corpo {
+  font-family: monospace;
+  margin: 70px auto 0 auto;
+  padding: 10px 100px;
+  width: 80%;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+}
+#first-part {
+    display: flex;
+    flex-direction: column;   
 }
 #title {
-    padding: 20px;
+  padding: 20px;
+  width: 100%;
 }
 
-.identificacao{
-    display: inline-block;
-    width: 100%;
-    vertical-align: middle;
-    height: 350px;
-    padding: 50px 10px;
+.identificacao {
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  padding: 50px 0;
+  display: flex;
+  border: 2px solid red;
 }
 
-#foto-ferfil{
-    border-radius: 100%;
-    width: 25%;
-    float: left;
-    margin-left: 80px;
-    padding: 5px;
-    background-color: rgb(65, 5, 5);
+#foto-ferfil {
+  border-radius: 100%;
+  width: 30%;
+  margin: 20px;
+  padding: 5px;
+  background-color: rgb(65, 5, 5);
 }
 
-.descricao{
-    width: 50%;
-    margin-right: 60px;
-    float: right;
+.resumo {
+    border: 2px solid green;
 }
-.descricao p{
-    text-align: left;
-    line-height: 30px;
+.resumo p {
+  text-align: left;
+  line-height: 30px;
 }
-
 
 #habilidades {
-    height: 250px;
-    margin: 0;
-    padding: 0;
+  height: 250px;
+  margin: 0;
+  padding: 0;
 }
-.subtitles{
-    margin: 30px;
+.subtitles {
+  line-height: 30px;
 }
 #habilidades p {
-    margin-left: 40px;
-    line-height: 30px;
-    text-align: left;
+  margin-left: 40px;
+  line-height: 30px;
+  text-align: left;
 }
 #portfolio {
-    height: 220px;
+  height: 220px;
 }
- #portfolio li {
-    margin: 0 40px;
-    line-height: 25px;
-    text-align: left;
- }
+#portfolio li {
+  margin: 0 40px;
+  line-height: 25px;
+  text-align: left;
+}
 
 /* rodapé */
 footer {
-    width: 100%;
-    height: 150px;
-    background-color: black;
-    border-top: 2px solid rgb(65, 5, 5);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 100%;
+  height: 150px;
+  background-color: black;
+  border-top: 2px solid rgb(65, 5, 5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 footer img {
-    width: 40px;
-    margin: 0 50px 20px; 
+  width: 40px;
+  margin: 0 50px 20px;
 }
