@@ -3,11 +3,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: rgb(3, 107, 66);
+  color: rgb(8, 175, 111);
 }
 
 body {
-  background-image: url("./img/fundo-batman.jpg");
+  background-image: url("./img/background.jpg");
   background-size: cover;
 }
 
@@ -16,10 +16,8 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgb(65, 5, 5);
+  background-color: rgb(29, 2, 2);
   width: 100%;
-  margin: 0 0 70px 0;
-  border-radius: 0 0 20px 20px;
   display: flex;
   justify-content: center;
 }
@@ -42,7 +40,7 @@ header {
 .navegacao-header {
   color: white;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1.2em;
 }
 .navegacao-header:hover {
   color: black;
@@ -55,7 +53,7 @@ header {
   margin: 70px auto 0 auto;
   padding: 10px 100px;
   width: 80%;
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(8, 7, 7, 0.753);
   text-align: center;
 }
 #first-section {
@@ -76,6 +74,7 @@ header {
 p {
   text-align: left;
   padding-bottom: 20px;
+  font-size: 1.2em;
 }
 
 #foto-ferfil {
@@ -91,10 +90,12 @@ p {
 #second-section {
   display: flex;
   flex-flow: column;
+  margin: 50px 10px;
 }
 #portfolio li {
   text-align: left;
   padding-bottom: 10px;
+  font-size: 1.2em;
 }
 #tecnologies {
   display: flex;
@@ -112,9 +113,13 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
+}
+footer h4 {
+  margin-top: 20px;
 }
 
 footer img {
   width: 40px;
-  margin: 0 50px 20px;
+  margin: 20px 50px 20px;
 }
