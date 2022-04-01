@@ -58,22 +58,24 @@ header {
   background-color: rgb(0, 0, 0);
   text-align: center;
 }
-#first-part {
+#first-section {
     display: flex;
-    flex-direction: column;   
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
 }
 #title {
-  padding: 20px;
-  width: 100%;
+  font-size: 1.8em;
+  margin: 15px;
 }
-
-.identificacao {
-  display: inline-block;
-  width: 100%;
-  vertical-align: middle;
-  padding: 50px 0;
-  display: flex;
-  border: 2px solid red;
+.subtitles {
+  line-height: 30px;
+  margin-bottom: 20px;
+  font-size: 1.8em;
+}
+p {
+  text-align: left;
+  padding-bottom: 20px;
 }
 
 #foto-ferfil {
@@ -83,37 +85,17 @@ header {
   padding: 5px;
   background-color: rgb(65, 5, 5);
 }
-
 .resumo {
-    border: 2px solid green;
+  width: 50%;
 }
-.resumo p {
+#second-section {
+  display: flex;
+  flex-flow: column;
+}
+#portfolio li{
   text-align: left;
-  line-height: 30px;
+  padding-bottom: 10px;
 }
-
-#habilidades {
-  height: 250px;
-  margin: 0;
-  padding: 0;
-}
-.subtitles {
-  line-height: 30px;
-}
-#habilidades p {
-  margin-left: 40px;
-  line-height: 30px;
-  text-align: left;
-}
-#portfolio {
-  height: 220px;
-}
-#portfolio li {
-  margin: 0 40px;
-  line-height: 25px;
-  text-align: left;
-}
-
 /* rodapé */
 footer {
   width: 100%;
