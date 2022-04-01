@@ -59,10 +59,10 @@ header {
   text-align: center;
 }
 #first-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
 }
 #title {
   font-size: 1.8em;
@@ -85,21 +85,28 @@ p {
   padding: 5px;
   background-color: rgb(65, 5, 5);
 }
-.resumo {
+#resumo {
   width: 50%;
 }
 #second-section {
   display: flex;
   flex-flow: column;
 }
-#portfolio li{
+#portfolio li {
   text-align: left;
   padding-bottom: 10px;
+}
+#tecnologies {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
+#tecnologies img {
+  width: 10%;
 }
 /* rodapé */
 footer {
   width: 100%;
-  height: 150px;
   background-color: black;
   border-top: 2px solid rgb(65, 5, 5);
   display: flex;
